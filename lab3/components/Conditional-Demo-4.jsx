@@ -15,7 +15,7 @@ function RainOrShine(props) {
 export default function SunnyRainy() {
     return(
         <div className={`${isRainy === true ? 'dark': 'light'}`}>
-            <RainOrShine/>
+            <RainOrShine isRainy = {isRainy}/>
         </div>
     );
 }

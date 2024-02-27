@@ -35,7 +35,7 @@ contract SalaryCalculator {
         hrsWorked = _hrsWorked;
     }
 
-    function setHourlyRate(uint256 _hourlyRate) public validRate(_hourlyRate){
+    function setHourlyRate(uint256 _hourlyRate) public onlyOwner validRate(_hourlyRate){
         hourlyRate = _hourlyRate;
     }
 
@@ -46,3 +46,5 @@ contract SalaryCalculator {
     }
 
 }
+
+// CHECKED

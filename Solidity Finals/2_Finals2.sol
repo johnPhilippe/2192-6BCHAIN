@@ -39,4 +39,4 @@ contract ReceiveEther {
     }
 }
 
-// This Aciticity allows the facilitation of SeflDestruct to deposit, withdraw, and self destruct with the owner defined fallback, and the ReceiveEther logs the ether and remaining gas of the transaction.
+// With the owner-defined fallback, this activity enables SeflDestruct to deposit, withdraw, and self-destruct, and ReceiveEther records the transaction's ether and remaining gas.

@@ -49,3 +49,5 @@ contract MyFinalsActivity2{
         remainingEth += msg.value;
     }
 }
+
+// This Solidity code enables ether transactions, which include receiving ether, sending ether to designated recipients, and terminating the contract.
